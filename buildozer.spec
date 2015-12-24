@@ -7,7 +7,7 @@ title = My Application
 package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = kivy.apk
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -63,7 +63,7 @@ fullscreen = 1
 #android.permissions = INTERNET
 
 # (int) Android API to use
-#android.api = 19
+android.api = 19
 
 # (int) Minimum API required
 #android.minapi = 9
